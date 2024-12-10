@@ -1,4 +1,4 @@
 <?php
 
 require __DIR__
- . '/../public/incex.php';
+ . '/../public/index.php';

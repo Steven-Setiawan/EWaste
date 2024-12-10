@@ -32,6 +32,6 @@
         "DB_DATABASE": "sql12.freesqldatabase.com",
         "DB_USERNAME": "sql12750994",
         "DB_CHARSET" : "utf8",
-        "DB_COLLATION" : "utf8mb4_unicode_ci"
+        "DB_COLLATION" : "utf8_general_ci"
     }
 }

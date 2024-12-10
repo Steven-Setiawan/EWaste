@@ -18,7 +18,7 @@ return new class extends Migration
             $table->enum('role', ['user', 'admin'])->default('user');
             $table->string('photo')->default('unspecified');
             $table->string('gender')->default('unspecified');
-            $table->date('DOB')->default(DB::raw('CURRENT_DATE'));
+            $table->date('DOB');
             $table->foreignId('cities_id')->default(1);
             $table->string('address')->default('unspecified');
             $table->rememberToken();
